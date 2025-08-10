@@ -1,0 +1,17 @@
+# Ignorar ambiente virtual
+venv/
+
+# Ignorar cache do Python
+__pycache__/
+*.pyc
+
+# Ignorar notebooks específicos
+tests.ipynb
+
+# Ignorar requirements.txt
+requirements.txt
+
+app/key
+app/key/*.json
+# Ignorar a chave do Firebase
+app/key/techfase3-firebase-adminsdk-fbsvc-e71cc04b8f.json
